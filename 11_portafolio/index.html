@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio | Proyecto Personal</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; }
+        header { border-bottom: 2px solid #eee; padding-bottom: 20px; text-align: center; }
+        section { margin-top: 30px; }
+        h2 { color: #2c3e50; border-left: 5px solid #3498db; padding-left: 10px; }
+        .links a { margin-right: 15px; text-decoration: none; color: #3498db; font-weight: bold; }
+        form { display: flex; flex-direction: column; gap: 10px; max-width: 400px; }
+        input, textarea, button { padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+        button { background-color: #3498db; color: white; cursor: pointer; border: none; }
+        button:hover { background-color: #2980b9; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Encabezado principal -->
+        <h1>¡Hola! soy [Tu Nombre] </h1>
+        <p>Desarrollador en formación apasionado por crear soluciones digitales creativas.</p>
+        
+        <!-- Enlaces a redes -->
+        <nav class="links">
+            <a href="https://github.com" target="_blank">GitHub</a>
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            <a href="mailto:correo@ejemplo.com">Email</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección de intereses y habilidades -->
+        <section id="habilidades">
+            <h2>Habilidades e Intereses</h2>
+            <div style="display: flex; justify-content: space-between;">
+                <div>
+                    <h3>Mis Habilidades</h3>
+                    <ul>
+                        <li>HTML5 y CSS3</li>
+                        <li>JavaScript básico</li>
+                        <li>Resolución de problemas</li>
+                        <li>Control de versiones (Git)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Mis Intereses</h3>
+                    <ul>
+                        <li>Desarrollo Web Frontend</li>
+                        <li>Diseño de Interfaces (UI)</li>
+                        <li>Inteligencia Artificial</li>
+                        <li>Videojuegos indie</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Proyectos destacados -->
+        <section id="proyectos">
+            <h2>Proyecto Destacado</h2>
+            <article>
+                <h3>Calculadora de Gastos Personales</h3>
+                <p>Desarrollé una aplicación sencilla en JavaScript que permite a los usuarios ingresar sus gastos diarios y visualizar un resumen total. Fue un reto interesante para practicar la manipulación del DOM y el manejo de arreglos.</p>
+            </article>
+        </section>
+
+        <!-- Formulario de contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="#">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" placeholder="¿En qué puedo ayudarte?" required></textarea>
+
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </section>
+    </main>
+
+</body>
+</html>
