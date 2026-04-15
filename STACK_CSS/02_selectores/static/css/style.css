@@ -1,0 +1,48 @@
+/* seleccion a traves de etiquetas */
+h1 { 
+      color: royalblue;
+}
+
+/* seleccion a traves de clases (.) */
+.rojo{
+      color:brown
+}
+
+/*seleccion a traves de ID (#) */
+#amarillo{
+      color:gold;
+}
+
+/*sitio ejemplo*/
+h1 {
+      color:blue;
+}
+p {
+      text-align:right;
+}
+p{
+      text-align: center;
+}
+
+.is-centered {
+text-align: center;
+}
+
+
+.is-orange {
+      color:gold;
+}
+
+#container {
+      width: 200px; /*anchp*/
+      height: 200; /* espacio interno */
+      padding: 10px; /* espacio interno */
+}
+
+#avatar {
+      width: 150px;
+      height:15px;
+      border-radius: 50%; /* agrega al elemento esquinas rodeadas*/
+      margin-top: 20px; /* margen superior (espacio externo) */
+      margin-left: 25px;
+}
